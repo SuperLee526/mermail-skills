@@ -1,6 +1,14 @@
 ---
 name: web3-partnership-qualification-agent
 description: Qualify inbound Web3 partnership emails through Mermail, extract commercial terms, assess priority and risks, and prepare human-reviewed reply text for builders, creators, founders, and business development teams.
+metadata:
+  openclaw:
+    requires:
+      env:
+        - MERMAIL_API_KEY
+    primaryEnv: MERMAIL_API_KEY
+    homepage: https://docs.mermail.app/ai/skills
+    emoji: "🤝"
 ---
 
 # Web3 Partnership Qualification Agent
